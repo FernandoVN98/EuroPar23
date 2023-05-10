@@ -1,0 +1,16 @@
+es/bsc/compss/checkpoint/types/request/ap/CheckpointerDataCopyFailedRequest.class
+es/bsc/compss/checkpoint/types/CheckpointGroupImpl.class
+es/bsc/compss/checkpoint/types/CheckpointCopy.class
+es/bsc/compss/checkpoint/types/CheckpointTask.class
+es/bsc/compss/checkpoint/types/CheckpointDataVersion.class
+es/bsc/compss/checkpoint/types/CheckpointData.class
+es/bsc/compss/checkpoint/types/request/ap/CheckpointerDataCopyEndedRequest.class
+es/bsc/compss/checkpoint/CheckpointRecord.class
+es/bsc/compss/checkpoint/types/request/ap/CheckpointerRequest.class
+es/bsc/compss/checkpoint/CheckpointRecord$CheckpointCopyListener.class
+es/bsc/compss/checkpoint/types/request/ap/CheckpointerSaveLastDataVersionsRequest.class
+es/bsc/compss/checkpoint/CheckpointManagerImpl$1.class
+es/bsc/compss/checkpoint/CheckpointUtils.class
+es/bsc/compss/checkpoint/types/CheckpointGroupImpl$GroupState.class
+es/bsc/compss/checkpoint/CheckpointCopiesHandler.class
+es/bsc/compss/checkpoint/CheckpointManagerImpl.class

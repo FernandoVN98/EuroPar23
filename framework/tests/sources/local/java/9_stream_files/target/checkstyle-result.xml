@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/9_stream_files/src/main/java/fileStreamTest/Main.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;fileStreamTest&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="28" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/9_stream_files/src/main/java/fileStreamTest/Utils.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;fileStreamTest&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="19" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/9_stream_files/src/main/java/fileStreamTest/Tasks.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;fileStreamTest&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="12" severity="warning" message="Orden lexicográfico incorrecto de &apos;es.bsc.distrostreamlib.api.files.FileDistroStream&apos; importación. En caso de ser antes de &apos;java.util.UUID&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" severity="warning" message="Orden lexicográfico incorrecto de &apos;es.bsc.distrostreamlib.exceptions.BackendException&apos; importación. En caso de ser antes de &apos;java.util.UUID&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="18" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="63" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="103" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/9_stream_files/src/main/java/fileStreamTest/MainItf.java">
+</file>
+</checkstyle>

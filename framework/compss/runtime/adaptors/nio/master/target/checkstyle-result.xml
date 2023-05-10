@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/NIOJob.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/WorkerStarter.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/NIOAdaptor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/handlers/Ender.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/handlers/ProcessOut.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/NIOWorkerNode.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/configuration/NIOConfiguration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/utils/NIOParamFactory.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/types/TransferGroup.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/master/NIOStarterCommand.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/master/src/main/java/es/bsc/compss/nio/requests/MasterDataRequest.java">
+</file>
+</checkstyle>

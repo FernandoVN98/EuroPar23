@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/agents/0.1_1_agent_deployment/src/main/java/es/bsc/compss/test/DemoClass.java">
+<error line="6" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="12" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="29" severity="warning" message="Bloque catch vacío." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/agents/0.1_1_agent_deployment/src/main/java/es/bsc/compss/test/DemoClassItf.java">
+</file>
+</checkstyle>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_api_calls/src/main/java/api/calls/Main.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_api_calls/src/main/java/api/calls/MainImpl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_api_calls/src/main/java/api/calls/MainItf.java">
+</file>
+</checkstyle>

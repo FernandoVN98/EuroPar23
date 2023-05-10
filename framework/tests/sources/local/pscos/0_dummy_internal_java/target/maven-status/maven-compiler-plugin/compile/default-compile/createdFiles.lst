@@ -1,0 +1,7 @@
+model/Person.class
+testPSCO/InternalImpl.class
+model/Computer.class
+storageManager/StorageManager.class
+storageManager/Serializer.class
+testPSCO/InternalItf.class
+testPSCO/Internal.class

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/multiImplementations/MultiImplementations.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;multiImplementations&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="9" severity="warning" message="Orden lexicográfico incorrecto de &apos;es.bsc.compss.api.COMPSs&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" severity="warning" message="Orden lexicográfico incorrecto de &apos;binary.BINARY&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="22" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/multiImplementations/Implementation1.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;multiImplementations&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/multiImplementations/MultiImplementationsItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/multiImplementations/RealImplementation.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;multiImplementations&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="15" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/multiImplementations/Implementation2.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;multiImplementations&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/binary/BINARY.java">
+<error line="3" severity="warning" message="Primera frase de Javadoc falta un período final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="6" severity="warning" message="Abreviatura en nombre &apos;BINARY&apos; debe contener no más de &apos;5&apos; mayúsculas." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_annotation_implementations/src/main/java/mpi/MPI.java">
+<error line="3" severity="warning" message="Primera frase de Javadoc falta un período final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+</checkstyle>

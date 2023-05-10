@@ -1,0 +1,10 @@
+es/bsc/compss/http/master/HTTPController.class
+es/bsc/compss/http/master/HTTPInstance.class
+es/bsc/compss/http/master/HTTPJob.class
+es/bsc/compss/http/master/Response.class
+es/bsc/compss/http/master/HTTPInstance$1.class
+es/bsc/compss/http/master/HTTPAdaptor.class
+es/bsc/compss/http/master/HTTPJob$1.class
+es/bsc/compss/http/master/URLReplacer.class
+es/bsc/compss/http/master/HTTPCaller$1.class
+es/bsc/compss/http/master/HTTPCaller.class

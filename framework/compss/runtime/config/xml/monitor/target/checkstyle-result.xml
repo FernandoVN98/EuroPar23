@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/CoresInfoType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/TasksInfoType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/ApplicationType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/ObjectFactory.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/ResourceInfoType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/CoreType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/COMPSsStateType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/ResourceType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/config/xml/monitor/src/main/java/es/bsc/compss/types/monitor/jaxb/ActionsType.java">
+</file>
+</checkstyle>

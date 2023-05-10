@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/worker/COMPSsWorker.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/worker/COMPSsException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/worker/CancelReason.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/parameter/Type.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/parameter/OnFailure.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/parameter/DataType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/parameter/Direction.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/parameter/StdIOStream.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/Julia.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/Decaf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/MPI.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/Container.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/HTTP.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/Binary.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/Method.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/MPIs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/Containers.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/MultiOmpSs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/Decafs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/Binaries.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/MultiMultiNode.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/OpenCLs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/Methods.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/Julias.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/repeatables/MultiCOMPSs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/MultiNode.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/OmpSs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/OpenCL.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/task/COMPSs.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Orchestration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Constraints.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Constants.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Epilog.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Prolog.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Processor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/SchedulerHints.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/types/annotations/Parameter.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/api/COMPSsGroup.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/programming_model/api/src/main/java/es/bsc/compss/api/COMPSs.java">
+</file>
+</checkstyle>

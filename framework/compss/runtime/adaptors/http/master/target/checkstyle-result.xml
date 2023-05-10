@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/HTTPCaller.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/Response.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/HTTPAdaptor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/HTTPController.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/HTTPJob.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/HTTPInstance.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/http/master/src/main/java/es/bsc/compss/http/master/URLReplacer.java">
+</file>
+</checkstyle>

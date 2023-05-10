@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/StorageObject.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/StorageItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/CallbackHandler.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/utils/Serializer.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/StubItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/CallbackEvent.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/utils/storage/dummyPSCO/src/main/java/storage/StorageException.java">
+</file>
+</checkstyle>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.01.17 a las 03:28:01 PM CET 
+
+  -->
+  <jaxb:bindings if-exists="true" scd="x-schema::">
+    <jaxb:schemaBindings map="false">
+      <jaxb:package name="es.bsc.compss.types.monitor.jaxb"/>
+    </jaxb:schemaBindings>
+    <jaxb:bindings if-exists="true" scd="~COMPSsStateType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.COMPSsStateType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~ResourceInfoType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.ResourceInfoType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~ResourceType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.ResourceType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~ActionsType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.ActionsType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~CoresInfoType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.CoresInfoType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~CoreType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.CoreType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~TasksInfoType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.TasksInfoType"/>
+    </jaxb:bindings>
+    <jaxb:bindings if-exists="true" scd="~ApplicationType">
+      <jaxb:class ref="es.bsc.compss.types.monitor.jaxb.ApplicationType"/>
+    </jaxb:bindings>
+  </jaxb:bindings>
+</jaxb:bindings>

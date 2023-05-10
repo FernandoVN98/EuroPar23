@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/complexTests/TripleChainDoubleSync.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;complexTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="13" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/complexTests/TripleChainNoSync.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;complexTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="13" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/complexTests/TripleChainOneSyncItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/complexTests/TripleChainDoubleSyncItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/complexTests/TripleChainNoSyncItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/complexTests/TripleChainOneSync.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;complexTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="13" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/IndependentWithSyncItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/BarrierItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/SingleLongChainItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/SingleLongChain.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;simpleTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="13" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/Barrier.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;simpleTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="13" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/IndependentItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/SingleChainItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/Independent.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;simpleTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="12" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/SingleChain.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;simpleTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="12" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/simpleTests/IndependentWithSync.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;simpleTests&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="12" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/utils/TasksImplementation.java">
+<error line="5" severity="warning" message="Primera frase de Javadoc falta un período final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="15" severity="warning" message="Primera frase de Javadoc falta un período final." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="18" severity="warning" message="Al cláusula debe tener una descripción que no esté vacía." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_graph/src/main/java/utils/GenericObject.java">
+</file>
+</checkstyle>

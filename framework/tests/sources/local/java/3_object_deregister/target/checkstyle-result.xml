@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/3_object_deregister/src/main/java/objectDeregister/BlackBox.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;objectDeregister&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/3_object_deregister/src/main/java/objectDeregister/ObjectDeregisterItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/3_object_deregister/src/main/java/objectDeregister/ClassInstanceTest.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;objectDeregister&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/3_object_deregister/src/main/java/objectDeregister/Dummy.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;objectDeregister&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/3_object_deregister/src/main/java/objectDeregister/ObjectDeregister.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;objectDeregister&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" severity="warning" message="Distancia entre la variable &apos;k&apos; declaración y su primer uso es 11 pero permitió 3 Considere la posibilidad de hacer esa variable como final si usted todavía tiene que almacenar su valor con antelación (antes llamadas a métodos que puedan hacer efecto secundario en el valor original)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+<error line="16" severity="warning" message="Abreviatura en nombre &apos;ITERATIONS&apos; debe contener no más de &apos;5&apos; mayúsculas." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/3_object_deregister/src/main/java/objectDeregister/ObjectDeregisterImpl.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;objectDeregister&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="21" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

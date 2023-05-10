@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/python/1_http_task/ws/src/main/java/es/bsc/RESTServiceLauncher.java">
+<error line="9" severity="warning" message="Orden lexicográfico incorrecto de &apos;javax.ws.rs.Path&apos; importación. En caso de ser antes de &apos;org.eclipse.jetty.servlet.ServletHolder&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/python/1_http_task/ws/src/main/java/es/bsc/testREST.java">
+<error line="6" severity="warning" message="Orden lexicográfico incorrecto de &apos;javax.ws.rs.*&apos; importación. En caso de ser antes de &apos;org.eclipse.jetty.server.Server&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="6" severity="warning" message="Usar la importación con &apos;.*&apos; debería evitarse - javax.ws.rs.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="7" severity="warning" message="Orden lexicográfico incorrecto de &apos;javax.ws.rs.core.MediaType&apos; importación. En caso de ser antes de &apos;org.eclipse.jetty.server.Server&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="8" severity="warning" message="Orden lexicográfico incorrecto de &apos;javax.ws.rs.core.Response&apos; importación. En caso de ser antes de &apos;org.eclipse.jetty.server.Server&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" column="14" severity="warning" message="Type name &apos;testREST&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="108" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="134" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

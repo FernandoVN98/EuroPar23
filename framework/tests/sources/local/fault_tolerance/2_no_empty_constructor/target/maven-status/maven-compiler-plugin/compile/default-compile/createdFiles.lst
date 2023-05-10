@@ -1,0 +1,5 @@
+noEmptyConstructor/Main.class
+noEmptyConstructor/MainItf.class
+noEmptyConstructor/MainImpl.class
+customObjectClasses/InvalidObject.class
+customObjectClasses/ValidObject.class

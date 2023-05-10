@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/Validator.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeSI.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeAllocatableAction.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeResourceDescription.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeWorker.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeImplementation.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeImplDefinition.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeImplDescription.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeActionOrchestrator.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeNode.java">
+</file>
+</checkstyle>

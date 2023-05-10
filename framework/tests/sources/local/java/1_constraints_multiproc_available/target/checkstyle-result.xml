@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_multiproc_available/src/main/java/multiProcessor/TestAvailableItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_multiproc_available/src/main/java/multiProcessor/TestAvailable.java">
+<error line="2" column="9" severity="warning" message="Package name &apos;multiProcessor&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="18" severity="warning" message="Orden lexicográfico incorrecto de &apos;commons.Action&apos; importación. En caso de ser antes de &apos;java.util.Map.Entry&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="44" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="83" column="17" severity="warning" message="Local variable name &apos;found_ce1&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="84" column="17" severity="warning" message="Local variable name &apos;found_ce2&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="85" column="17" severity="warning" message="Local variable name &apos;found_ce3&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="86" column="17" severity="warning" message="Local variable name &apos;found_ce4&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="234" column="88" severity="warning" message="Parameter name &apos;CPUcus&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="234" column="100" severity="warning" message="Parameter name &apos;GPUcus&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="234" column="112" severity="warning" message="Parameter name &apos;FPGAcus&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="235" column="13" severity="warning" message="Parameter name &apos;OTHERcus&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_multiproc_available/src/main/java/commons/Action.java">
+<error line="32" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="148" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

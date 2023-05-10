@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/sc/simple/0_simple_java_sc/src/main/java/simple/SimpleImpl.java">
+<error line="6" severity="warning" message="Orden lexicográfico incorrecto de &apos;java.io.FileNotFoundException&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/sc/simple/0_simple_java_sc/src/main/java/simple/SimpleItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/sc/simple/0_simple_java_sc/src/main/java/simple/Simple.java">
+<error line="10" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

@@ -1,0 +1,13 @@
+es/bsc/compss/nio/exceptions/NoSourcesException.class
+es/bsc/compss/nio/listeners/TaskFetchOperationsListener.class
+es/bsc/compss/nio/worker/components/DataRegister.class
+es/bsc/compss/nio/worker/components/DataManagerImpl.class
+es/bsc/compss/nio/datarequest/WorkerDataRequest.class
+es/bsc/compss/nio/listeners/TaskExecutionListener.class
+es/bsc/compss/nio/worker/components/DataManagerImpl$2.class
+es/bsc/compss/nio/worker/NIOWorker$1.class
+es/bsc/compss/nio/worker/components/DataManagerImpl$1.class
+es/bsc/compss/nio/listeners/CollectionFetchOperationsListener.class
+es/bsc/compss/nio/worker/NIOWorker.class
+es/bsc/compss/nio/listeners/FetchDataOperationListener.class
+es/bsc/compss/nio/listeners/DictCollectionFetchOperationsListener.class

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_rm_available/src/main/java/commons/Action.java">
+<error line="31" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="147" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_rm_available/src/main/java/resourceManager/TestAvailableItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_rm_available/src/main/java/resourceManager/TestAvailable.java">
+<error line="2" column="9" severity="warning" message="Package name &apos;resourceManager&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="17" severity="warning" message="Orden lexicográfico incorrecto de &apos;commons.Action&apos; importación. En caso de ser antes de &apos;java.util.Map.Entry&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="42" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="79" column="17" severity="warning" message="Local variable name &apos;found_ce1&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="80" column="17" severity="warning" message="Local variable name &apos;found_ce2&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="81" column="17" severity="warning" message="Local variable name &apos;found_ce3&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="129" severity="warning" message="Distancia entre la variable &apos;consumed2&apos; declaración y su primer uso es 4 pero permitió 3 Considere la posibilidad de hacer esa variable como final si usted todavía tiene que almacenar su valor con antelación (antes llamadas a métodos que puedan hacer efecto secundario en el valor original)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+</file>
+</checkstyle>

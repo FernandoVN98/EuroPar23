@@ -1,0 +1,6 @@
+storageManager/StorageManager.class
+model/Person.class
+storageManager/Serializer.class
+testPscoStreams/Main.class
+testPscoStreams/Tasks.class
+testPscoStreams/MainItf.class

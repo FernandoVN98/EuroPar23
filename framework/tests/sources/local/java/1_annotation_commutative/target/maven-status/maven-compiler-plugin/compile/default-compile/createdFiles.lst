@@ -1,0 +1,6 @@
+storageManager/StorageManager.class
+storageManager/Serializer.class
+testCommutative/TestCommutative.class
+testCommutative/TestCommutativeImpl.class
+testCommutative/TestCommutativeItf.class
+model/MyFile.class

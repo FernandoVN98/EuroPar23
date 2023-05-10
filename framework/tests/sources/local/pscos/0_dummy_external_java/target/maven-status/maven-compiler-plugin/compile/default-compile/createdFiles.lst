@@ -1,0 +1,6 @@
+storageManager/StorageManager.class
+model/Person.class
+testPSCO/External.class
+storageManager/Serializer.class
+testPSCO/ExternalItf.class
+model/Computer.class

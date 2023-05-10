@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/local/master/src/main/java/es/bsc/compss/local/LocalParameter.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/local/master/src/main/java/es/bsc/compss/local/LocalJob.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/local/master/src/main/java/es/bsc/compss/local/LocalParameterCollection.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/local/master/src/main/java/es/bsc/compss/types/COMPSsMaster.java">
+</file>
+</checkstyle>

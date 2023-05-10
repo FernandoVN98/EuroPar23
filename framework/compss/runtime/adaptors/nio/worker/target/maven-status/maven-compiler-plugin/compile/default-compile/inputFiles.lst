@@ -1,0 +1,10 @@
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/exceptions/NoSourcesException.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/worker/components/DataRegister.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/worker/components/DataManagerImpl.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/listeners/TaskExecutionListener.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/datarequest/WorkerDataRequest.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/listeners/FetchDataOperationListener.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/listeners/TaskFetchOperationsListener.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/listeners/CollectionFetchOperationsListener.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/listeners/DictCollectionFetchOperationsListener.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/worker/src/main/java/es/bsc/compss/nio/worker/NIOWorker.java

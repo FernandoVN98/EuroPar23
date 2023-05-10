@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/AddOrchestration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/exceptions/NameNotFoundException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/LoaderConstants.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/CustomLoader.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/ITAppLoader.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/LoaderAPI.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/ITAppModifier.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/COMPSsFile.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/ArrayAccessWatcher.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/StreamRegistry.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/COMPSsGroupLoader.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/CallGenerator.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/ITAppEditor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/total/ObjectRegistry.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/loader/src/main/java/es/bsc/compss/loader/LoaderUtils.java">
+</file>
+</checkstyle>

@@ -1,0 +1,4 @@
+es/bsc/compss/scheduler/lookahead/successors/constraintsfifo/ConstraintsFifoTS.class
+es/bsc/compss/scheduler/lookahead/successors/constraintsfifo/ConstraintsFifoRS.class
+es/bsc/compss/scheduler/lookahead/mt/successors/constraintsfifo/ConstraintsFifoTS.class
+es/bsc/compss/scheduler/lookahead/mt/successors/constraintsfifo/ConstraintsFifoRS.class

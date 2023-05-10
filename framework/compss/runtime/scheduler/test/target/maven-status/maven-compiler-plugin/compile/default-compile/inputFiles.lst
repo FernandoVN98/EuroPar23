@@ -1,0 +1,10 @@
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeSI.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeNode.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeImplDefinition.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/Validator.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeImplementation.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeImplDescription.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeWorker.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeActionOrchestrator.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeAllocatableAction.java
+/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/test/src/main/java/es/bsc/compss/scheduler/types/fake/FakeResourceDescription.java

@@ -1,0 +1,5 @@
+es/bsc/compss/api/ApplicationRunner.class
+es/bsc/compss/api/COMPSsRuntime.class
+es/bsc/compss/api/ParameterCollectionMonitor.class
+es/bsc/compss/api/TaskMonitor.class
+es/bsc/compss/api/ParameterMonitor.class

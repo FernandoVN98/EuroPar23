@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm1/src/main/java/es/bsc/compss/cbm1/Cbm1Impl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm1/src/main/java/es/bsc/compss/cbm1/Cbm1.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm1/src/main/java/es/bsc/compss/cbm1/Cbm1Itf.java">
+</file>
+</checkstyle>

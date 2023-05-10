@@ -1,0 +1,12 @@
+es/bsc/compss/gat/master/utils/GATScriptExecutor$ScriptDispatcher.class
+es/bsc/compss/gat/master/GATWorkerNode.class
+es/bsc/compss/gat/master/configuration/GATConfiguration.class
+es/bsc/compss/gat/master/GATJob.class
+es/bsc/compss/gat/master/exceptions/GATCopyException.class
+es/bsc/compss/gat/master/GATAdaptor.class
+es/bsc/compss/gat/master/utils/GATScriptExecutor.class
+es/bsc/compss/gat/master/GATJob$1.class
+es/bsc/compss/gat/master/GATCopy.class
+es/bsc/compss/gat/master/GATWorkerNode$1.class
+es/bsc/compss/gat/master/utils/SSHManager.class
+es/bsc/compss/gat/master/GATTracer.class

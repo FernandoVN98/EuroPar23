@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOResult.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/exceptions/BindingObjectTypeException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/exceptions/DataNotAvailableException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/exceptions/SerializedObjectException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOUri.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOTaskProfile.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/utils/NIOBindingObjectReceiver.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/utils/NIOBindingDataManager.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/utils/NIOBindingObjectStream.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/utils/NIOBindingObjectTransferListener.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOMessageHandler.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOTracer.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOTask.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/requests/DataRequest.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOParam.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOData.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOParamCollection.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOTaskResult.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOAgent.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/NIOResultCollection.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandCheckWorker.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandNIOTaskDone.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/workerfiles/CommandGenerateWorkerDebugFiles.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/workerfiles/CommandWorkerDebugFilesDone.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandNewTask.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandRemoveObsoletes.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandTracingID.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandDataDemand.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandShutdownACK.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandResourcesIncreased.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandExecutorShutdown.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandExecutorShutdownACK.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/Command.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandPingWorker.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandResourcesReduced.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandDataNegate.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandDataFetch.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandCancelTask.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandPingWorkerACK.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandResourcesReduce.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandShutdown.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandDataReceived.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/RetriableCommand.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandResourcesIncrease.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/CommandCheckWorkerACK.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/tracing/CommandGenerateDone.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/nio/commons/src/main/java/es/bsc/compss/nio/commands/tracing/CommandGeneratePackage.java">
+</file>
+</checkstyle>

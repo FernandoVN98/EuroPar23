@@ -1,0 +1,10 @@
+storage/utils/Serializer.class
+storage/CallbackEvent.class
+storage/StubItf.class
+storage/CallbackEvent$EventType.class
+storage/StorageItf$Host.class
+storage/StorageObject.class
+storage/StorageItf.class
+storage/StorageItf$MyStorageObject.class
+storage/StorageException.class
+storage/CallbackHandler.class

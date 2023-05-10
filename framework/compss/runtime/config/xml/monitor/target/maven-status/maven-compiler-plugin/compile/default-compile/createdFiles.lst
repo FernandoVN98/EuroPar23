@@ -1,0 +1,9 @@
+es/bsc/compss/types/monitor/jaxb/CoreType.class
+es/bsc/compss/types/monitor/jaxb/TasksInfoType.class
+es/bsc/compss/types/monitor/jaxb/ObjectFactory.class
+es/bsc/compss/types/monitor/jaxb/CoresInfoType.class
+es/bsc/compss/types/monitor/jaxb/ActionsType.class
+es/bsc/compss/types/monitor/jaxb/COMPSsStateType.class
+es/bsc/compss/types/monitor/jaxb/ResourceInfoType.class
+es/bsc/compss/types/monitor/jaxb/ApplicationType.class
+es/bsc/compss/types/monitor/jaxb/ResourceType.class

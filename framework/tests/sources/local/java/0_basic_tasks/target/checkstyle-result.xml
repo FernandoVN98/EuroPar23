@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_tasks/src/main/java/basic/tasks/SimpleImpl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_tasks/src/main/java/basic/tasks/SimpleItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_tasks/src/main/java/basic/tasks/Reader.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_tasks/src/main/java/basic/tasks/Simple.java">
+</file>
+</checkstyle>

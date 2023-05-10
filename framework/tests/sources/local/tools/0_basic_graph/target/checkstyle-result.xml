@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_basic_graph/src/main/java/basic/BasicGraphImpl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_basic_graph/src/main/java/basic/BasicGraphItf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/tools/0_basic_graph/src/main/java/basic/BasicGraph.java">
+<error line="8" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

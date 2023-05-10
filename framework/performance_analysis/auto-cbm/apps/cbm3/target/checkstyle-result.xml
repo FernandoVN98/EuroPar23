@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/objects/Cbm3.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/objects/Cbm3Impl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/objects/Cbm3Itf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/objects/DummyPayload.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/files/Cbm3.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/files/Cbm3Impl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/performance_analysis/auto-cbm/apps/cbm3/src/main/java/es/bsc/compss/cbm3/files/Cbm3Itf.java">
+</file>
+</checkstyle>

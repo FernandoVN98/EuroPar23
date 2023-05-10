@@ -1,0 +1,11 @@
+es/bsc/compss/scheduler/types/fake/FakeAllocatableAction.class
+es/bsc/compss/scheduler/types/fake/FakeActionOrchestrator.class
+es/bsc/compss/scheduler/types/fake/FakeSI.class
+es/bsc/compss/scheduler/types/fake/FakeImplementation.class
+es/bsc/compss/scheduler/types/Validator.class
+es/bsc/compss/scheduler/types/fake/FakeImplDescription.class
+es/bsc/compss/scheduler/types/fake/FakeWorker.class
+es/bsc/compss/scheduler/types/fake/FakeResourceDescription.class
+es/bsc/compss/scheduler/types/Validator$ActionState.class
+es/bsc/compss/scheduler/types/fake/FakeImplDefinition.class
+es/bsc/compss/scheduler/types/fake/FakeNode.class

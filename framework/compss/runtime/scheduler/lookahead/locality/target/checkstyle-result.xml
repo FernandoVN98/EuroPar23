@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/lookahead/locality/src/main/java/es/bsc/compss/scheduler/lookahead/locality/LocalityRS.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/scheduler/lookahead/locality/src/main/java/es/bsc/compss/scheduler/lookahead/locality/LocalityTS.java">
+</file>
+</checkstyle>

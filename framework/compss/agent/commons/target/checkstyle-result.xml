@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/AgentConstants.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/types/RemoteDataInformation.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/types/ApplicationParameter.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/types/Resource.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/types/RemoteDataLocation.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/types/ApplicationParameterCollection.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/agent/commons/src/main/java/es/bsc/compss/agent/AgentException.java">
+</file>
+</checkstyle>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_rm_compatible/src/main/java/commons/Action.java">
+<error line="31" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="147" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_rm_compatible/src/main/java/resourceManager/TestCompatible.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;resourceManager&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="21" severity="warning" message="Orden lexicográfico incorrecto de &apos;commons.Action&apos; importación. En caso de ser antes de &apos;java.util.Map.Entry&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="22" severity="warning" message="Orden lexicográfico incorrecto de &apos;es.bsc.compss.types.CoreElement&apos; importación. En caso de ser antes de &apos;java.util.Map.Entry&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="40" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="90" column="46" severity="warning" message="Local variable name &apos;hm_reverted&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="91" column="53" severity="warning" message="Local variable name &apos;entry_hm&apos; must match pattern &apos;^[a-z]([a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="148" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="201" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="217" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="239" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="262" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="271" severity="warning" message="La línea es mayor de 120 caracteres (encontrado 121)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/1_constraints_rm_compatible/src/main/java/resourceManager/TestCompatibleItf.java">
+</file>
+</checkstyle>

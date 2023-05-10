@@ -1,0 +1,11 @@
+es/bsc/compss/agent/comm/messages/RemoveNodeCommand.class
+es/bsc/compss/agent/comm/messages/Test.class
+es/bsc/compss/agent/comm/messages/AddResourcesCommand.class
+es/bsc/compss/agent/comm/CommAgentConstants.class
+es/bsc/compss/agent/comm/messages/RemoveResourcesCommand.class
+es/bsc/compss/agent/comm/messages/types/CommParam.class
+es/bsc/compss/agent/comm/messages/LostNodeCommand.class
+es/bsc/compss/agent/comm/CommAgent.class
+es/bsc/compss/agent/comm/messages/types/CommResource.class
+es/bsc/compss/agent/comm/messages/types/CommParamCollection.class
+es/bsc/compss/agent/comm/messages/types/CommTask.class

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/GATWorkerNode.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/GATTracer.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/GATJob.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/GATAdaptor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/exceptions/GATCopyException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/configuration/GATConfiguration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/utils/GATScriptExecutor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/utils/SSHManager.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/master/src/main/java/es/bsc/compss/gat/master/GATCopy.java">
+</file>
+</checkstyle>

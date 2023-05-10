@@ -1,0 +1,6 @@
+storageManager/StorageManager.class
+storageManager/Serializer.class
+testCommutativeGroups/TestCommutativeGroupsImpl.class
+model/MyFile.class
+testCommutativeGroups/TestCommutativeGroups.class
+testCommutativeGroups/TestCommutativeGroupsItf.class

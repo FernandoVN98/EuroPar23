@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/worker/src/main/java/es/bsc/compss/gat/executor/types/ExecutionEnd.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/worker/src/main/java/es/bsc/compss/gat/worker/GATLog.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/worker/src/main/java/es/bsc/compss/gat/worker/GATWorker.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/gat/worker/src/main/java/es/bsc/compss/gat/worker/GATInvocation.java">
+</file>
+</checkstyle>

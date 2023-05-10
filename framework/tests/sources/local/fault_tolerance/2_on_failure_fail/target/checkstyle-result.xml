@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/fault_tolerance/2_on_failure_fail/src/main/java/onFailureFail/numberException.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;onFailureFail&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" column="14" severity="warning" message="Type name &apos;numberException&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="5" severity="warning" message="Resumen javadoc falta." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/fault_tolerance/2_on_failure_fail/src/main/java/onFailureFail/OnFailureFail.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;onFailureFail&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="warning" message="Orden lexicográfico incorrecto de &apos;es.bsc.compss.api.*&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="7" severity="warning" message="Usar la importación con &apos;.*&apos; debería evitarse - es.bsc.compss.api.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="16" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/fault_tolerance/2_on_failure_fail/src/main/java/onFailureFail/OnFailureFailImpl.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;onFailureFail&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" severity="warning" message="Orden lexicográfico incorrecto de &apos;java.io.FileNotFoundException&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="9" severity="warning" message="Orden lexicográfico incorrecto de &apos;java.io.FileOutputStream&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" severity="warning" message="Orden lexicográfico incorrecto de &apos;java.io.FileReader&apos; importación. En caso de ser antes de &apos;java.io.IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" column="5" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/fault_tolerance/2_on_failure_fail/src/main/java/onFailureFail/OnFailureFailItf.java">
+</file>
+</checkstyle>

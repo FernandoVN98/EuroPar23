@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/worker/src/main/java/es/bsc/compss/agent/rest/RESTServiceLauncher.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/worker/src/main/java/es/bsc/compss/agent/rest/RESTAgent.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/worker/src/main/java/es/bsc/compss/agent/rest/RESTAgentConf.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/worker/src/main/java/es/bsc/compss/agent/rest/AppTaskMonitor.java">
+</file>
+</checkstyle>

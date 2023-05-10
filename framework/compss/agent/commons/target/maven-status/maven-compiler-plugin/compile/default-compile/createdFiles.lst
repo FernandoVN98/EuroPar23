@@ -1,0 +1,7 @@
+es/bsc/compss/agent/types/ApplicationParameterCollection.class
+es/bsc/compss/agent/types/ApplicationParameter.class
+es/bsc/compss/agent/AgentConstants.class
+es/bsc/compss/agent/AgentException.class
+es/bsc/compss/agent/types/RemoteDataInformation.class
+es/bsc/compss/agent/types/RemoteDataLocation.class
+es/bsc/compss/agent/types/Resource.class

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/master/src/main/java/es/bsc/compss/agent/rest/master/AgentConfiguration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/master/src/main/java/es/bsc/compss/agent/rest/master/RemoteRESTAgentJob.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/master/src/main/java/es/bsc/compss/agent/rest/master/Adaptor.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/RESTagent/master/src/main/java/es/bsc/compss/agent/rest/master/RemoteRESTAgent.java">
+</file>
+</checkstyle>

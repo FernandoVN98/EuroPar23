@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/CopyException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/StreamCloseException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/UnstartedNodeException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/FileDeletionException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/ExternalPropertyException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/AnnounceException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/InitNodeException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/InvokeExecutionException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/ConstructConfigurationException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/exceptions/CannotLoadException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/util/Tracer.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/util/FileOpsManager.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/util/ExternalStreamHandler.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/util/tracing/TraceScript.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/job/JobEndStatus.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/job/JobProfile.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/job/JobHistory.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/uri/SimpleURI.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/NonExistentDataException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/NonExistentElementException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/InvalidMapException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/UnwritableValueException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/UnsufficientAvailableComputingUnitsException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/UnwritableValuesException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/InitializationException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/UnsufficientAvailableResourcesException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/JobExecutionException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/exceptions/UnloadableValueException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/InvocationContext.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/InvocationParam.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/LanguageParams.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/InvocationParamCollection.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/InvocationParamURI.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/Invocation.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/execution/ThreadBinder.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/data/location/ProtocolType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/data/location/LocationType.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/resources/configuration/MethodConfiguration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/resources/configuration/ServiceConfiguration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/resources/configuration/Configuration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/types/resources/configuration/HTTPConfiguration.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/data/FetchDataListener.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/data/DataProvider.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/data/MultiOperationFetchListener.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/data/BindingDataManager.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/data/DataManager.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/commons/src/main/java/es/bsc/compss/data/Data.java">
+</file>
+</checkstyle>

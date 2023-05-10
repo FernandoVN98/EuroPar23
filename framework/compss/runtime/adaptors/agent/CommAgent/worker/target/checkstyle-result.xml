@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/CommAgent/worker/src/main/java/es/bsc/compss/agent/comm/CommAgentImpl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/CommAgent/worker/src/main/java/es/bsc/compss/agent/comm/CommAgentConfig.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/runtime/adaptors/agent/CommAgent/worker/src/main/java/es/bsc/compss/agent/comm/TaskMonitor.java">
+</file>
+</checkstyle>

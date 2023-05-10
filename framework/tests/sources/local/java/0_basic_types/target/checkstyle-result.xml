@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_types/src/main/java/basic/types/BasicTypesImpl.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_types/src/main/java/basic/types/BasicTypes.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/tests/sources/local/java/0_basic_types/src/main/java/basic/types/BasicTypesItf.java">
+</file>
+</checkstyle>

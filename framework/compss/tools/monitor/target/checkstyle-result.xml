@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/commons/Loggers.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/exceptions/EmptyCompleteGraphException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/exceptions/NonInstantiableException.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/CoresViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/auth/AuthenticationInit.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/auth/AuthenticationService.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/auth/UserCredential.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ApplicationsViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/LoadChartViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/Resource.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/StatisticsViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ExecutionInformationViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ExecutionInformationTask.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/StateData.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/RuntimeLogViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/CompleteGraphViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/Constants.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/Core.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/StatisticParameter.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ConfigurationViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ResourcesViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/CurrentGraphViewModel.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/ConfigParam.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/Login.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/Application.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/ui/Properties.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/monitoringparsers/RuntimeLogParser.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/monitoringparsers/MonitorXmlParser.java">
+</file>
+<file name="/home/bscuser/Documentos/GitLab/framework/compss/tools/monitor/src/main/java/es/bsc/compss/monitoringparsers/ResourcesLogParser.java">
+</file>
+</checkstyle>
