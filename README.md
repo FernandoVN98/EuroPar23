@@ -18,9 +18,12 @@ Finally, we include the tests folder. This folder contains several tests that ca
 
 To ease the execution of the tests, a container with all the environment set up has been published in docker hub with the tag "FALTA TAG". It can be fetch with the following command:
 
-To set up the environment on a laptop, it is necessary to install the prototype implementation building it from the sources provided in this repository. The prototype is build on COMPSs v3.1; therefore, it inherits all its dependencies. 
+To set up the environment on a laptop, it is necessary to install the prototype implementation building it from the sources provided in this repository. The prototype is build on COMPSs v3.1; therefore, it inherits all its [dependencies](https://compss-doc.readthedocs.io/en/3.1/Sections/01_Installation/01_Dependencies.html). 
 To install COMPSs on a laptop from its sources run:
 ```bash
-cd framework/builders/
-sudo -E ./buildlocal  -K -J -T -D -C -M --skip-tests /opt/COMPSs
+$ cd framework/builders/
+$ sudo -E ./buildlocal  -K -J -T -D -C -M --skip-tests /opt/COMPSs
 ```
+To install the runtime on supercomputers, there is additional information on the Installing in [Supercomputers](https://compss-doc.readthedocs.io/en/3.1/Sections/01_Installation/04_Supercomputers.html#) page from COMPSs' official documentation.
+
+# Launch Tests
