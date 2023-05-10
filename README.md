@@ -13,3 +13,14 @@ The mn_tests folders contains the information related to the tests presented on 
 These previous tests are not reproducible (in terms of training time) outside MareNostrum 4. In a personal laptop or a small cluster it is possible that the experiments fail due to the lack of computational resources. The main problem is the RAM memory they require to execute.
 
 Finally, we include the tests folder. This folder contains several tests that can be executed in a laptop or small cluster. These tests are included in order to make it easier to check that the code works properly. There will be two folders, one for the nested code and another one with the classical COMPSs version.
+
+# Prepare Environment
+
+To ease the execution of the tests, a container with all the environment set up has been published in docker hub with the tag "FALTA TAG". It can be fetch with the following command:
+
+To set up the environment on a laptop, it is necessary to install the prototype implementation building it from the sources provided in this repository. The prototype is build on COMPSs v3.1; therefore, it inherits all its dependencies. 
+To install COMPSs on a laptop from its sources run:
+```bash
+cd framework/builders/
+sudo -E ./buildlocal  -K -J -T -D -C -M --skip-tests /opt/COMPSs
+```
