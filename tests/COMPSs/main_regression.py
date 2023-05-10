@@ -2,7 +2,7 @@ from pycompss.api.api import compss_wait_on, compss_barrier
 import dislib as ds
 from sklearn.datasets import make_classification, make_regression
 import time
-from COMPSs.forest import RandomForestRegressor
+from trees.forest import RandomForestRegressor
 
 
 def main():

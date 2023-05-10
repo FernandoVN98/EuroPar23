@@ -2,7 +2,8 @@ from pycompss.api.api import compss_wait_on, compss_barrier
 import dislib as ds
 import time
 from sklearn.datasets import make_classification
-from COMPSs.forest import RandomForestClassifier
+from trees.forest import RandomForestClassifier
+
 def main():
     x, y = make_classification(n_samples=280000, n_features=5, n_informative=3, n_classes=3, random_state=0)
     x_test = ds.array(x[270000:], (5000, 5))
