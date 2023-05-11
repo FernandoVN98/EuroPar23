@@ -1,5 +1,5 @@
 # Mllib Tests
-This tests should be executed inside MareNostrum 4
+This tests must be executed inside MareNostrum 4
 # Strong Scaling
 The scripts for the strong scaling tests are the ones that start with strong-scaling-pyspark_NUMBER_nodes.sh, and the pyspark_16_nodes.sh.
 These scripts are ready for launching the corresponding test inside the cluster MareNostrum 4. They only require the corresponding path the HIGGs dataset, for example:
