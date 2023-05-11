@@ -21,6 +21,6 @@ ENV COMPSS_LOAD_SOURCE false
 COPY ./tests /tests
 COPY ./mn_tests /mn_tests
 
-COPY ./launch_test /launch_test
+COPY ./launch_test.sh /launch_test.sh
 
-ENTRYPOINT ["/launch_test"]
+ENTRYPOINT ["/launch_test.sh"]
