@@ -10,7 +10,7 @@ import sys
 
 @task()
 def main(args):
-    data= pd.read_csv(args[0])
+    data= pd.read_csv(args)
     data = data.values
     x_train, x_test, y_train, y_test = train_test_split(data[:, 1:], data[:, 0], test_size=0.1, random_state=0)
     x_train_copy = np.copy(x_train)
