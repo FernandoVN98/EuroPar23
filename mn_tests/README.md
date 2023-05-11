@@ -6,3 +6,5 @@ There are three folders, each of the folders contains the tests for one of the a
 - Nested: contains the main scripts, the launchers and the code of the algorithm with the nested approach in the COMPSs frameworks.
 
 The tests contained in these folders corresponds to the HIGGs tests described in the article.
+
+**IMPORTANT:** An account in the MareNostrum 4 Supercomputer is required in order to run these tests.
