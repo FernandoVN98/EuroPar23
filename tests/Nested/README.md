@@ -5,7 +5,7 @@ There are also two bash scripts: deploy_app.sh and launch_app.sh. In order to ex
 ```bash
 > ./deploy_app.sh
 ```
-Then the launch_app.sh script is executed with 3 arguments, the first one is the MASTER_IP, the second one is the MASTER_REST_PORT and the third one is the test script to execute. For example:
+Then the launch_app.sh script is executed in a separate terminal with 3 arguments, the first one is the MASTER_IP, the second one is the MASTER_REST_PORT and the third one is the test script to execute. For example:
 ```bash
 > ./launch_app.sh 127.0.0.1 46101 main_classification.py
 ```
