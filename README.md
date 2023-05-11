@@ -27,3 +27,4 @@ $ sudo -E ./buildlocal  -K -J -T -D -C -M --skip-tests /opt/COMPSs
 To install the runtime on supercomputers, there is additional information on the Installing in [Supercomputers](https://compss-doc.readthedocs.io/en/3.1/Sections/01_Installation/04_Supercomputers.html#) page from COMPSs' official documentation.
 
 # Launch Tests
+Inside each of the tests folders there are more details on how to launch the different tests.
