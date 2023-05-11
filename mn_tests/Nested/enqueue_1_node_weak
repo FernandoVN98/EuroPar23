@@ -1,0 +1,48 @@
+#!/bin/bash
+
+module load dislib/master
+module load python/3.7.4
+module unload COMPSs/2.10
+module load COMPSs/3.2 #Applies fixes to large nested executions
+export ComputingUnitsTree=16
+
+
+# Define script constants
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+
+# Create output directory
+output_dir="${SCRIPT_DIR}/output"
+mkdir -p "${output_dir}"
+
+    # Create output directory
+  output_dir="${SCRIPT_DIR}/output"
+  mkdir -p "${output_dir}"
+
+  # Run job
+  enqueue_compss --qos=debug \
+    --sc_cfg="mn.cfg" \
+    \
+    --num_nodes="1" \
+    --exec_time="120" \
+    --log_level=off \
+    --constraints=highmem \
+    --scheduler="es.bsc.compss.scheduler.orderstrict.fifo.FifoTS" \
+    \
+    --cpus_per_node=48 \
+    --worker_in_master_cpus=48 \
+    \
+    --master_working_dir="${output_dir}/" \
+    --worker_working_dir="${output_dir}/" \
+    --base_log_dir="${output_dir}" \
+    --log_dir="${output_dir}" \
+    --pythonpath="${SCRIPT_DIR}/application" \
+    \
+    --jvm_workers_opts="-Dcompss.worker.removeWD=false" \
+    \
+    --agents \
+    \
+    --method_name="main" \
+    --lang="python" \
+    "nesting_weak_scaling_1_node"
+
