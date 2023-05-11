@@ -1,5 +1,5 @@
 # Nested Tests
-This tests should be executed in the cluster MareNostrum 4
+This tests must be executed in the cluster MareNostrum 4
 # Strong Scaling
 The scripts that will execute the strong scaling tests are: enqueue_4_nodes, enqueue_8_nodes and enqueue_16_nodes. These scripts are 
 ready to launch all the strong scaling tests. They only need one argument, the path to the HIGGs file dataset. For example:
