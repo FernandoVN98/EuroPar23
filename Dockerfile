@@ -23,4 +23,7 @@ COPY ./mn_tests /mn_tests
 
 COPY ./launch_test.sh /launch_test.sh
 
+# Expose SSH port and run SSHD
+EXPOSE 22
+
 ENTRYPOINT ["/launch_test.sh"]

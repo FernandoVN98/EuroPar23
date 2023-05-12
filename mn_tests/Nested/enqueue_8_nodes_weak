@@ -44,5 +44,5 @@ mkdir -p "${output_dir}"
     \
     --method_name="main" \
     --lang="python" \
-    "nesting_weak_scaling_8_nodes"
+    "nesting_weak_scaling_8_nodes" $1
 

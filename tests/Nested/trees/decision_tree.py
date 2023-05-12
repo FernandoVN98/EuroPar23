@@ -1206,11 +1206,6 @@ def construct_subtree(x, y, actual_node, m_try, depth, max_depth=25, random_stat
                 max_depth=sklearn_max_depth,
                 random_state=random_state,
             )
-        dt = SklearnDTRegressor(
-            max_features=m_try,
-            max_depth=sklearn_max_depth,
-            random_state=random_state,
-        )
         x = np.block(x)
         y = np.block(y)
         if len(y) == 0 or np.all(y == None):

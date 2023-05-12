@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/usr/sbin/sshd -D &
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ "${#}" -eq 0 ]; then

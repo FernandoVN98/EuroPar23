@@ -44,5 +44,5 @@ mkdir -p "${output_dir}"
     \
     --method_name="main" \
     --lang="python" \
-    "main_forest_nested"
+    "main_forest_nested" $1
 

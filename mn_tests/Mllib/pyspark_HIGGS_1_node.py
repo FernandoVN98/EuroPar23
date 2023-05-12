@@ -12,12 +12,13 @@ from pyspark.mllib.evaluation import MulticlassMetrics
 import os
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 import copy
+import sys
 
 # Initialize Spark session
 spark = SparkSession.builder.master("spark://"+os.environ["MasterIP"]+":7077").appName("RandomForestClassifierExample").getOrCreate()
 
 # Load dataset
-df = spark.read.csv('/gpfs/scratch/bsc19/bsc19756/NEW_DECISION_TREE_IMPROVED_TERASORT/HIGGS.csv', inferSchema = True)
+df = spark.read.csv(sys.argv[1:], inferSchema = True)
 
 numeric_features = [t[0] for t in df.dtypes if t[1] == 'double']
 df.select(numeric_features).describe().toPandas().transpose()

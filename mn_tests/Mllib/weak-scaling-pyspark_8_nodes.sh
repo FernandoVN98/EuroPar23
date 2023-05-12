@@ -49,4 +49,4 @@ sleep 10
 #export SPARK_HOME=$PWD/Home
 # Rest of the job here
 
-/apps/SPARK/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --master spark://$master_ip:7077 --executor-cores 4 --executor-memory 25G --driver-memory 12G  pyspark_HIGGS_8_nodes.py
+/apps/SPARK/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --master spark://$master_ip:7077 --executor-cores 4 --executor-memory 25G --driver-memory 12G  pyspark_HIGGS_8_nodes.py $1
