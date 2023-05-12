@@ -16,8 +16,10 @@ Finally, we include the tests folder. This folder contains several tests that ca
 
 # Prepare Environment
 
-To ease the execution of the tests, a container with all the environment set up has been published in docker hub with the tag "FALTA TAG". It can be fetch with the following command:
-
+To ease the execution of the tests, a container with all the environment set up has been published in docker hub with the tag ```fernandovn98/europar23:latest```. It can be fetch with the following command:
+```bash
+$ docker pull fernandovn98/europar23:latest
+```
 To set up the environment on a laptop, it is necessary to install the prototype implementation building it from the sources provided in this repository. The prototype is build on COMPSs v3.1; therefore, it inherits all its [dependencies](https://compss-doc.readthedocs.io/en/3.1/Sections/01_Installation/01_Dependencies.html). 
 To install COMPSs on a laptop from its sources run:
 ```bash
