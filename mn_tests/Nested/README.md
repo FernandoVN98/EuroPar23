@@ -12,3 +12,10 @@ the weak scaling tests. They only need one argument, the path to the HIGGs file 
 ```bash
 > ./enqueue_4_nodes_weak /path/to/the/file/HIGGs.csv
 ```
+
+# Results
+The output of each of the tests will be in the path: 
+```bash
+${DIRECTORY_WHERE_TESTS_WERE_LAUNCHED}/output/.COMPSs/${JOB_ID}/jobs
+```
+In this path will be the different files from the different COMPSs tasks, the file that contains the output of the main program and thus the results of the tests is job1_NEW.out
