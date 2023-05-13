@@ -400,7 +400,7 @@ class DecisionTreeRegressor(BaseDecisionTree):
 def _compute_split_regressor(x, y, num_buckets=4, range_min=0, range_max=1, indexes_selected=None,
                              number_attributes=2, m_try=2,
                              number_split_points=100, split_computation="raw", random_state=1,):
-    if x[0] is None:#TODO AÑADIDO PARA PASAR A NESTED (SE DEBERÍA MIRAR DE CAMBIAR MÁS COSAS)
+    if x[0] is None:
         return None, [None], [None], [None], [None]
     indexes_to_try = []
     random_state = check_random_state(random_state)
@@ -559,7 +559,7 @@ def _compute_split_regressor(x, y, num_buckets=4, range_min=0, range_max=1, inde
 def _compute_split(x, y, n_classes=None, num_buckets=4, range_min=0, range_max=1,
                    indexes_selected=None, number_attributes=2, m_try=2,
                    number_split_points=100, split_computation="raw", random_state=None):
-    if x[0] is None:#TODO AÑADIDO PARA PASAR A NESTED (SE DEBERÍA MIRAR DE CAMBIAR MÁS COSAS)
+    if x[0] is None:
         return None, [None], [None], [None], [None]
     indexes_to_try = []
     random_state = check_random_state(random_state)
@@ -1217,7 +1217,7 @@ def construct_subtree(x, y, actual_node, m_try, depth, max_depth=25, random_stat
 
 
 def _sample_selection(x, random_state, bootstrap=True):
-    if bootstrap:  # bootstrap:
+    if bootstrap:
         selection = random_state.choice(
             x.shape[0], size=x.shape[0], replace=True
         )

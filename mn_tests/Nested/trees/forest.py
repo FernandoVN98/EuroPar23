@@ -68,7 +68,7 @@ class BaseRandomForest(BaseEstimator):
         self.split_computation = split_computation
         self.sync_after_fit = sync_after_fit
 
-    #@task()#TODO BUG POTENCIAL EN BINDING (SHARED_ARGS 72, SYNCHRONIZATION 126)
+
     def fit(self, x, y):
         """Fits a RandomForest.
 
@@ -354,7 +354,7 @@ class RandomForestClassifier(BaseRandomForest):
 
         pred_blocks = []
 
-        if self.hard_vote:#TODO SACAR EL COMPSS_WAIT_ON FUERA DEL BUCLE
+        if self.hard_vote:
             for x_row in x._iterator(axis=0):
                 tree_predictions = []
                 for tree in self.trees:

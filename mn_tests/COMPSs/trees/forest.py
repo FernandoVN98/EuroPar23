@@ -783,7 +783,7 @@ def _decode_helper(obj):
 
 
 def _sample_selection(x, random_state, bootstrap=True):
-    if bootstrap:  # bootstrap:
+    if bootstrap:
         selection = random_state.choice(
             x.shape[0], size=x.shape[0], replace=True
         )
@@ -854,7 +854,6 @@ def _predict_tree_class(x, node, node_content_num, n_classes=None, rights=0, dep
             pred = np.zeros((len(x), n_classes), dtype=np.float64)
             pred[:, node_content.sk_tree.classes_] = sk_tree_pred
             return pred
-    # assert len(x) == 0, "Type not supported"
     if n_classes is not None:
         return np.empty((0, n_classes), dtype=np.float64)
     else:
@@ -903,12 +902,3 @@ def _sync_rf(rf):
     since they cannot be synced recursively.
     """
     rf.nodes_info = compss_wait_on(rf.nodes_info)
-    #for i in range(rf.n_estimators):
-    #    rf.nodes_info[i] = compss_wait_on(rf.nodes_info[i])
-
-    '''try_features = compss_wait_on(rf.trees[0].try_features)
-    n_classes = compss_wait_on(rf.trees[0].n_classes)
-    for tree in rf.trees:
-        tree.try_features = try_features
-        tree.n_classes = n_classes
-        tree.nodes_info = compss_wait_on(tree.nodes_info)'''

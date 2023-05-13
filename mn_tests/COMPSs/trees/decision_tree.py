@@ -742,7 +742,6 @@ def _predict_tree_class(x, node, node_content_num, n_classes=None, rights=0, dep
             pred = np.zeros((len(x), n_classes), dtype=np.float64)
             pred[:, node_content.sk_tree.classes_] = sk_tree_pred
             return pred
-    # assert len(x) == 0, "Type not supported"
     if n_classes is not None:
         return np.empty((0, n_classes), dtype=np.float64)
     else:
@@ -802,15 +801,6 @@ def evaluate_exception(found_solution, node_info, rights_x, rights_y, lefts_x, l
 @task(node_info=INOUT, found_solution=INOUT, y_r=COLLECTION_IN, y_r_occ=COLLECTION_IN, y_l=COLLECTION_IN, y_l_occ=COLLECTION_IN, indexes_to_try=COLLECTION_IN)
 def generate_nodes_with_data_compressed_regression(node_info, found_solution, y_r, y_r_occ, y_l, y_l_occ, gini_value,
                                                    attribute_to_split, indexes_to_try, optimal_split_point):
-    import sys
-    sys.stdout.write("CONDICIONES\n")
-    sys.stdout.write(str((np.sum(y_l_occ) + np.sum(y_r_occ)) <= 4)+"\n")
-    sys.stdout.write(str(np.sum(y_r_occ))+"\n")
-    sys.stdout.write(str(np.sum(y_l_occ))+"\n")
-    sys.stdout.write(str(attribute_to_split)+"\n")
-    sys.stdout.write(str((np.sum(y_l) + np.sum(y_r)) / (np.sum(y_l_occ) + np.sum(y_r_occ)))+"\n")
-    sys.stdout.write(str(np.sum(y_l_occ) + np.sum(y_r_occ))+"\n")
-    sys.stdout.flush()
     if (np.sum(y_l_occ) + np.sum(y_r_occ)) <= 4:
         node_info.set(_compute_leaf_info((np.sum(y_l) + np.sum(y_r)) / (np.sum(y_l_occ) + np.sum(y_r_occ)), None,
                                           occurrences=np.sum(y_l_occ) + np.sum(y_r_occ)))
@@ -863,7 +853,7 @@ def generate_nodes_with_data_compressed(node_info, found_solution, y_r, y_l, n_c
 
 
 @constraint(computing_units="${ComputingUnits}")
-@task(x_block=COLLECTION_IN, y_block=COLLECTION_IN, returns=8)  # INCLUIDO COLLECTION ULTIMA HORA#@task(returns=4)
+@task(x_block=COLLECTION_IN, y_block=COLLECTION_IN, returns=8)
 def apply_split_points_to_blocks_regression(x_block, y_block, best_attribute, optimal_value, indexes_to_try):
     if optimal_value is None:
         data_to_compress = np.block(y_block)
@@ -902,7 +892,7 @@ def apply_split_points_to_blocks_regression(x_block, y_block, best_attribute, op
 
 
 @constraint(computing_units="${ComputingUnits}")
-@task(x_block=COLLECTION_IN, y_block=COLLECTION_IN, returns=6)  # INCLUIDO COLLECTION ULTIMA HORA#@task(returns=4)
+@task(x_block=COLLECTION_IN, y_block=COLLECTION_IN, returns=6)
 def apply_split_points_to_blocks(x_block, y_block, best_attribute, optimal_value, indexes_to_try, n_classes):
     aggregate = np.zeros(n_classes, dtype=np.int8)
     aggregate_r = np.zeros(n_classes, dtype=np.int8)
@@ -960,7 +950,6 @@ def get_minimum_measure(ginis_list, number_attributes, gini=True):
     else:
         minimum_measure = np.inf
     for idx, ginis in enumerate(ginis_list):
-        #ginis = np.nan_to_num(ginis, nan=np.inf)
         if ginis[np.argmin(ginis)] < minimum_measure:
             position_m_g = np.argmin(ginis)
             minimum_measure = ginis[position_m_g]
@@ -974,7 +963,7 @@ def get_minimum_measure(ginis_list, number_attributes, gini=True):
 
 
 @constraint(computing_units="${ComputingUnits}")
-@task(partial_results_l={Type: COLLECTION_IN}, partial_results_r={Type: COLLECTION_IN}, returns=2)#, Depth: 2}, returns=2)
+@task(partial_results_l={Type: COLLECTION_IN}, partial_results_r={Type: COLLECTION_IN}, returns=2)
 def merge_partial_results_compute_mse_both_sides(partial_results_l, partial_results_r):
     if partial_results_l[0] is None or len(partial_results_l[0]) < 1:
         return np.array([np.inf]), False
@@ -1116,7 +1105,7 @@ def classes_per_split(x_block, y_block, split_points, number_classes_l, number_c
 
 @constraint(computing_units="${ComputingUnits}")
 @task(unique_values=COLLECTION_IN, returns=1)
-def get_split_point_various_attributes_bucket(unique_values, total_length, number_split_points=100,#TODO EVALUAR TOTAL LENGTH, TAL VEZ SOBRA
+def get_split_point_various_attributes_bucket(unique_values, total_length, number_split_points=100,
                                             split_computation="raw"):
     sample_blocks_list = []
     for idx, bucket in enumerate(unique_values):
@@ -1147,13 +1136,13 @@ def get_split_point_various_attributes_bucket(unique_values, total_length, numbe
             std = np.std(sample_blocks)
             mean = np.mean(sample_blocks)
             sample_blocks = np.array([mean + std * scipy.stats.norm.ppf((i + 1) / (number_split_points_actual + 1)) for i in
-                                      range(number_split_points_actual - 1)])  # TODO PREGUNTAR i + 1 y el -1
+                                      range(number_split_points_actual - 1)])
             sample_blocks_list.append(sample_blocks)
         elif split_computation == "uniform_approximation":
             maximum = np.max(sample_blocks)
             minimum = np.min(sample_blocks)
             sample_blocks = np.array([minimum + i * ((maximum - minimum) / (number_split_points_actual + 1)) for i in
-                                      range(number_split_points_actual)])  # TODO PREGUNTAR i + 1 y el -1
+                                      range(number_split_points_actual)])
             sample_blocks_list.append(sample_blocks)
     return sample_blocks_list
 
@@ -1187,7 +1176,7 @@ def construct_subtree(x, y, actual_node, m_try, depth, max_depth=25, random_stat
 
 
 def _sample_selection(x, random_state, bootstrap=True):
-    if bootstrap:  # bootstrap:
+    if bootstrap:
         selection = random_state.choice(
             x.shape[0], size=x.shape[0], replace=True
         )
