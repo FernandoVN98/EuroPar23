@@ -13,3 +13,4 @@ echo "Waiting for result"
 wait ${agent_PID}
 
 grep "Training time" "/tmp/Agent1/jobs/job1_NEW.out"
+grep "Score" "/tmp/Agent1/jobs/job1_NEW.out"

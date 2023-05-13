@@ -16,7 +16,7 @@ def main():
     rf.fit(x, y)
     compss_barrier()
     print("Training time: " + str(time.time() - start_time))
-    print(rf.score(x_test, y_test, collect=True))
+    print("Accuracy:" + str(rf.score(x_test, y_test, collect=True)))
 
 
 
