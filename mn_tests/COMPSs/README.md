@@ -10,3 +10,6 @@ The bash script launch_weak_scaling.sh is ready to launch all the weak scaling t
 ```bash
 > ./launch_weak_scaling.sh /path/to/the/file/HIGGs.csv
 ```
+
+# Results
+The results can be found in the same directory that the tests are launched. The name of the output files will be: compss-${JOB_ID}.out and compss-${JOB_ID}.err. The file compss-${JOB_ID}.out will contain the results.
